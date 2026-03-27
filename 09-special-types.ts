@@ -20,6 +20,14 @@ c = undefined
 let d: undefined | string
 
 d = undefined
-d = "Hi"
+d = "This is a string"
 // d = null
 // d = 10
+
+let e: undefined | number | null;
+
+e = undefined
+e = null 
+e = 5
+
+console.log(a, b, c, d, e)
