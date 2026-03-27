@@ -1,13 +1,14 @@
 let hobbies = ["Eating", "Watching"]
 
-// hobbies.push(10)
+hobbies.push("Sleeping")
 
-// let userList: (string | number)[];
-let userList: Array<string | number>;
+console.log(hobbies)
 
-userList = ["Elmer", "Elmer123", 123456]
+let userList: (string | number)[];
+//let userList: Array<string | number>;
+userList = ["Matt", "Hue0110", 123676767]
 
-// console.log(userList)
+console.log(userList)
 
 let user: {
     name: string;
