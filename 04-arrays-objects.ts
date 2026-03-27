@@ -13,14 +13,14 @@ console.log(userList)
 let user: {
     name: string;
     age: number;
-    hobbies: Array<string>,
+    hobbies: Array<string>, //FORMATTING SA ARRAY AY Array<insert dito datatype and then pwede maglagay ng "|" para dagdag ng value for example number 
     role: {
         description: string,
         id: number
     }
 } = {
-    name: "Elmer",
-    age: 31,
+    name: "Matt", 
+    age: 21,
     hobbies: ["Eating", "Sleeping"],
     role: {
         description: 'admin',
@@ -29,7 +29,7 @@ let user: {
 }
 
 // Must not null or undefined
-let val: {} = "Elmer Alvarado"
+let val: {} = "Matt"
 
 // Flexible Object - Record Type
 let data: Record<string, number | string>
